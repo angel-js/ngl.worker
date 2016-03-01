@@ -24,6 +24,5 @@ References
 ----------
 
   * <https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers>
-  * <https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers>
   * <https://developer.mozilla.org/en-US/docs/Web/API/SharedWorker>
   * <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
