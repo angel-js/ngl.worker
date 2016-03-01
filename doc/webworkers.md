@@ -59,7 +59,7 @@ Worker.postMessage(aMessage, transferList);
     unusable in the context it was sent from and it becomes available only to
     the worker it was sent to.
 
-    Only MessagePort and ArrayBuffer objects can be transferred.
+    Only `MessagePort` and `ArrayBuffer` objects can be transferred.
 
 Feature detection
 
