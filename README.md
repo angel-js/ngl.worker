@@ -12,7 +12,7 @@ worker. For such a task look at [angular-workers](https://github.com/FredrikSand
 Docs
 ----
 
-  * [WebWorkers usage](doc/webworkers.md)
+  * [WebWorkers Guide](doc/webworkers.md)
 
 Requirements
 ------------
