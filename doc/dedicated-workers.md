@@ -57,7 +57,7 @@ Worker.postMessage(aMessage, transferList);
   * **transferList:** An optional array of `Transferable` objects to transfer
     ownership of. If the ownership of an object is transferred, it becomes
     unusable in the context it was sent from and it becomes available only to
-    the worker it was sent to.
+    the context it was sent to.
 
     Only `MessagePort` and `ArrayBuffer` objects can be transferred.
 
