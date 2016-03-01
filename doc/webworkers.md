@@ -77,6 +77,8 @@ var hasTransferables = function () {
 Remove workers
 --------------
 
+### Main thread
+
 ```js
 worker.terminate();
 ```
@@ -85,17 +87,21 @@ The `Worker.terminate()` method immediately terminates the Worker. This does not
 offer the worker an opportunity to finish its operations; it is simply stopped
 at once.
 
+### Worker
+
+```js
+close();
+```
 
 Inside workers
 --------------
 
-### Access to external resources
-
-WIP
+### [WIP] Access to external resources
 
 References
 ----------
 
+  * <https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers>
   * <https://html.spec.whatwg.org/multipage/workers.html>
   * <https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL>
   * <https://developer.mozilla.org/en-US/docs/Web/API/Blob>
