@@ -8,7 +8,7 @@ Types Of Workers
 
 Accessible from the script that first spawned it
 
-Main article: [Dedicated Workers](doc/dedicated-workers.md)
+Main article: [Dedicated Workers](dedicated-workers.md)
 
 ### Shared Workers
 
