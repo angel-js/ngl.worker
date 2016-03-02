@@ -18,3 +18,11 @@ the DOM exclusively** powered by a **virtual dom** engine ideally
 
 How to manage the dependencies and inter-process communication are ideal targets
 for JavaScript libraries/frameworks
+
+References
+----------
+
+  * <https://blog.raananweber.com/2015/05/30/web-worker-without-a-separate-file/>
+  * <https://blog.raananweber.com/2015/05/26/collisions-using-workers-for-babylonjs/>
+  * <https://blog.raananweber.com/2015/06/06/collisions-using-workers-for-babylonjs-part-2/>
+  * <http://blog.runspired.com/2015/06/05/using-webworkers-to-bring-native-app-best-practices-to-javascript-spas/>
