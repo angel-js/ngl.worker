@@ -32,6 +32,18 @@ Requirements
   * Workers will usually emit big chunks of data. `transferable objects` its a
     must
 
+Design decisions
+----------------
+
+  * workers have no access to `window` but libraries usually use `window` to
+    register themselves: wrap worker code in an IIFE
+
+    ```js
+    (function (window) {
+      // worker code
+    })(self)
+    ```
+
 Similar projects
 ----------------
 
